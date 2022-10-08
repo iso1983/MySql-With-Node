@@ -1,4 +1,4 @@
-1)Make sure you have mysql installed on your system.
+1)Make sure you have mysql installed on your system.Go to .env file and enter your password for DB_PASSWORD
 
 2)Create a new database called "blog_app" and create a table called "posts" inside the blog_app database then add these columns: id,title,body,createdAt to the "posts" table.Make sure id column is auto incemented,not null,unique and primary key,check the image below
 
