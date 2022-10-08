@@ -1,5 +1,5 @@
 const path = require("path");
-// Sets environment variables on PROVESS.ENV object
+// Sets environment variables on PROCESS.ENV object
 require("dotenv").config({ path: path.join(__dirname, ".env") });
 const express = require("express");
 const cors = require("cors");
