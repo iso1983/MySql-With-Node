@@ -20,7 +20,7 @@
 
 or change 2 to another id in db
 
-**TWhat is MVC model?**
+**What is MVC model?**
 
 To implement MCV we need to create 3 folders/directories, these are:<br />
 **routes**: In the routes folder we simply create a route,eg a 'user' router where we define user related functions,like delete user,update user,add user.<br />
