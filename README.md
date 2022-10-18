@@ -23,6 +23,6 @@ or change 2 to another id in db
 **TWhat is MVC model?**
 
 To implement MCV we need to create 3 folders/directories, these are:
-**routes**: In the routes folder we simply create a route,eg a 'user' router where we define user related functions,like delete user,update user,add user. --
+**routes**: In the routes folder we simply create a route,eg a 'user' router where we define user related functions,like delete user,update user,add user.<br />
 **models**:Where we define the structure of database schema. we could use no sql or sql databases and define the ORM(Object-Relational Mapping) using sequelize or **mongoose**(form mongo DB) in models.
 **controllers**: Where we manage the data by making a request to the database and retrieve the data through the controller.
