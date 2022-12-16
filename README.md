@@ -25,4 +25,5 @@ or change 2 to another id in db
 To implement MCV we need to create 3 folders/directories, these are:<br />
 **routes**: Route files match incoming requests and passes those requests to the correct controller function .Eg, a 'user' router where we define user related functions,like delete user,update user,add user.If you use a template engine, create a folder called **views** and there you create the templates but in this example I am not using a template engine.<br />
 **models**:In simple terms Model represents the **data**.Where we define the structure of database schema,this is where the data is coming from. we could use no sql or sql databases and define the ORM(Object-Relational Mapping) using sequelize or mongoose(form mongo DB) in models.A model is like a blueprint defined using a class.<br />
+**view**:View renders data into its template and it gets send to the browser.You can use many different view engines.In this example I do not have view.
 **controllers**: controller is where we define the middlewares from where models are called to fetch data from DB<br />
