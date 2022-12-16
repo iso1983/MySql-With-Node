@@ -23,6 +23,6 @@ or change 2 to another id in db
 **What is MVC model?**
 
 To implement MCV we need to create 3 folders/directories, these are:<br />
-**routes**: This represents the **View part** if you do not use a template engine.In the routes folder we simply create a route,eg a 'user' router where we define user related functions,like delete user,update user,add user.If you use a template engine, create a folder called **views** and there you create the templates but in this example I am not using a template engine.<br />
+**routes**: Route files match incoming requests and passes those requests to the correct controller function .Eg, a 'user' router where we define user related functions,like delete user,update user,add user.If you use a template engine, create a folder called **views** and there you create the templates but in this example I am not using a template engine.<br />
 **models**:In simple terms Model represents the **data**.Where we define the structure of database schema,this is where the data is coming from. we could use no sql or sql databases and define the ORM(Object-Relational Mapping) using sequelize or mongoose(form mongo DB) in models.A model is like a blueprint defined using a class.<br />
 **controllers**: controller is where we define the middlewares from where models are called to fetch data from DB<br />
